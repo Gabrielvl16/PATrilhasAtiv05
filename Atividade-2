@@ -1,0 +1,21 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo número do úsuario
+			Console.WriteLine("Digite dois números: ");
+			int numeroUm = int.Parse(Console.ReadLine()), numeroDois = int.Parse(Console.ReadLine());
+
+			// Conferindo qual dos dois números e maior
+			Console.WriteLine((numeroUm > numeroDois)? "O número "+ numeroUm +" é maior que " + numeroDois : "O número " +numeroDois+ " é maior que o " +numeroUm);
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
