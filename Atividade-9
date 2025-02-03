@@ -1,0 +1,24 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo número do úsuario
+			Console.WriteLine("Digite dois números: ");
+			int numero1 = int.Parse(Console.ReadLine());
+			int numero2 = int.Parse(Console.ReadLine());
+
+			// Calculando resultado
+			string resultado = (numero2 != 0 && numero1 % numero2 == 0) ? "Divisível" : "Não divisível";
+
+            // Exibindo resultado
+            Console.WriteLine("O número " +numero1+ " é " +resultado+ " por " + numero2);
+ 
+            Console.Write("Digite qualquer tecla para sair . . . ");
+            Console.ReadKey(true);
+		}
+	}
+}
