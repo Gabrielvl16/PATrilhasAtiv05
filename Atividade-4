@@ -1,0 +1,20 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo texto do úsuario
+			Console.WriteLine("Digite uma palavra: ");
+			string texto = Console.ReadLine();
+			
+			// Verificando se a string contem texto ou não
+            Console.WriteLine(string.IsNullOrEmpty(texto) ? "String vazia" : "String preenchida");
+   
+            Console.Write("Digite qualquer tecla para sair . . . ");
+            Console.ReadKey(true);
+		}
+	}
+}
