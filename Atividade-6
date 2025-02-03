@@ -1,0 +1,23 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo número do úsuario
+			Console.WriteLine("Digite um número");
+			int numero = int.Parse(Console.ReadLine());
+			
+			// Calculando valor absoluto
+			int valorAbsoluto = (numero < 0) ? -numero : numero;
+			
+			// Exibindo resultado
+            Console.WriteLine("O valor absoluto de " +numero+ " é " +valorAbsoluto);
+
+            Console.Write("Digite qualquer tecla para sair . . . ");
+            Console.ReadKey(true);
+		}
+	}
+}
