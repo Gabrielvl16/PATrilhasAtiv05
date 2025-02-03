@@ -1,0 +1,16 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			List<int> numeros = new List<int>();
+      Console.WriteLine(numeros.Count > 0 ? "Lista cheia" : "Lista vazia");
+
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
