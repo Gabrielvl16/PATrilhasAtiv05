@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Pede para o usuário digitar um número
+        Console.WriteLine("Digite um número:");
+        int numero = int.Parse(Console.ReadLine());
+
+        // Usa o operador ternário para verificar se o número é par ou ímpar
+        Console.WriteLine((numero % 2 == 0)?"Seu número e par!":"Seu número e impar!");
+        
+        Console.Write("Pressione qualquer tecla para sair . . .");
+        Console.ReadKey(true);
+    }
+}
