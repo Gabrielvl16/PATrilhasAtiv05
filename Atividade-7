@@ -1,0 +1,24 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo um número
+			Console.WriteLine("Digite um número: ");
+			int numero = int.Parse(Console.ReadLine());
+			
+			// Verificando condição
+            string resultado = numero > 0 ? "Positivo" : (numero < 0 ? "Negativo" : "Zero");
+
+            // Exibindo resultado
+            Console.WriteLine("O número " +numero+ " é " +resultado );
+
+
+            Console.Write("Digite qualquer tecla para sair . . . ");
+            Console.ReadKey(true);
+		}
+	}
+}
