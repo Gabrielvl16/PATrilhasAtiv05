@@ -1,0 +1,21 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+     		bool condicao = true; // Ou false, para testar a condição
+            
+     		// Verifica se condição e verdadeira ou falsa
+            string resultado = condicao ? "A condição é verdadeira" : "A condição é falsa";
+            
+            // Exibindo resultado
+            Console.WriteLine(resultado);
+
+            Console.Write("Digite qualquer tecla para sair . . . ");
+            Console.ReadKey(true);
+		}
+	}
+}
