@@ -1,0 +1,19 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			string texto = null; // Pode testar com valores nulos ou com uma string não nula
+
+			string resultado = (texto == null) ? "A variável é nula" : "A variável não é nula";
+
+            Console.WriteLine(resultado);
+
+            Console.Write("Digite qualquer tecla para sair . . . ");
+            Console.ReadKey(true);
+		}
+	}
+}
