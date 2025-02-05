@@ -1,4 +1,4 @@
-# Atividade 05 - Exercícios C# 🧠💻
+# Atividade 05 - Ternário C# 🧠💻
 
 Este repositório contém os exercícios e desafios que realizei durante a minha jornada de aprendizado na linguagem de programação C#. Aqui, compartilho códigos e soluções para problemas que explorei, abrangendo os principais conceitos de programação, como:
 
